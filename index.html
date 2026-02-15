@@ -1,11 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welcome to my Page</h1>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Atom Sandbox</title><script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script><style>body {margin: 0;padding: 20px;font-family: Arial, sans-serif;background-color: #f0f0f0;}#playarea {border: 2px solid #333;background-color: #ffffff;cursor: crosshair;}#spawn-button {margin-bottom: 10px;padding: 10px 20px;font-size: 16px;cursor: pointer;background-color: #4CAF50;color: white;border: none;border-radius: 4px;}#periodic-table-modal {display: none;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);padding: 20px;border: 2px solid #333;border-radius: 8px;background-color: #ffffff;z-index: 1000;width: 80%;max-width: 1000px;max-height: 80vh;overflow-y: auto;}.element-button {width: 60px;height: 60px;display: flex;flex-direction: column;justify-content: center;align-items: center;border: 1px solid #ccc;border-radius: 4px;margin: 2px;cursor: pointer;font-size: 12px;background-color: #e0e0e0;transition: background-color 0.2s;}.element-button:hover {background-color: #d0d0d0;}.element-symbol {font-size: 18px;font-weight: bold;}.element-number {font-size: 10px;}.element-button.empty {visibility: hidden;pointer-events: none;}#periodic-table-grid {display: grid;grid-template-columns: repeat(18, 1fr);gap: 5px;margin-top: 10px;}#isotope-selection {margin-top: 20px;border-top: 1px solid #eee;padding-top: 15px;}#isotope-list {display: flex;flex-wrap: wrap;gap: 10px;margin-top: 10px;}.isotope-button {padding: 8px 12px;border: 1px solid #ccc;border-radius: 4px;cursor: pointer;background-color: #f0f0f0;transition: background-color 0.2s;}.isotope-button:hover {background-color: #e0e0e0;}#back-to-elements {margin-top: 15px;padding: 8px 15px;background-color: #007bff;color: white;border: none;border-radius: 4px;cursor: pointer;}#back-to-elements:hover {background-color: #0056b3;}</style></head><body><button id="spawn-button">Spawn Atom</button><button id="pause-button">Pause</button><button id="reset-button">Reset</button><canvas id="playarea" width="1200" height="800"></canvas><div id="periodic-table-modal"><h2>Select Stable Element</h2><div id="periodic-table-grid"></div></div></body></html>
